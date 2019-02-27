@@ -1,0 +1,32 @@
+{
+	"name": "huangdijia/laravel-sitemap",
+	"description": "Sitemap package for Laravel.",
+	"homepage": "http://hdj.me",
+	"keywords": ["laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "huangdijia",
+			"email": "huangdijia@gmail.com",
+			"role": "Developer",
+			"homepage": "https://github.com/huangdijia/laravel-sitemap"
+		}
+	],
+	"require": {
+		"php": ">=7.1.3",
+		"illuminate/support": "5.7.*|5.8.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Huangdijia\\Sitemap": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Huangdijia\\Sitemap\\SitemapServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev"
+}
